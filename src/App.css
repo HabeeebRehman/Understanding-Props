@@ -1,0 +1,12 @@
+/* add your styles here */
+*{
+    text-align: center;
+}
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.image-container img{
+    width: 90%;
+}
